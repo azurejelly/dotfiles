@@ -1,0 +1,17 @@
+[commit]
+        gpgsign = true
+[user]
+        signingkey = 399328C1DE689773D75D316078C7CB2FBB62D96D
+        name = azurejelly
+        email = 156628929+azurejelly@users.noreply.github.com
+[credential]
+        helper = osxkeychain
+[pull]
+        rebase = false
+[push]
+        autoSetupRemote = true
+[core]
+        editor = nano
+        ignorecase = false
+        autocrlf = input
+        excludesFile = ~/.gitignore
