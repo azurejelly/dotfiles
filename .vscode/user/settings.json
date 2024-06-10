@@ -1,0 +1,30 @@
+{
+    "workbench.colorTheme": "Visual Studio Dark",
+    "window.titleBarStyle": "custom",
+    "editor.minimap.enabled": false,
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "git.confirmSync": false,
+    "extensions.ignoreRecommendations": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "[html]": {
+        "editor.defaultFormatter": "j69.ejs-beautify"
+    },
+    "files.autoSave": "onFocusChange",
+    "vscode_vibrancy.theme": "Default Dark",
+    "terminal.integrated.gpuAcceleration": "off",
+    "editor.stickyScroll.enabled": false,
+    "background.enabled": false,
+    "background.styles": [
+        {},
+        {},
+        {}
+    ],
+    "editor.cursorBlinking": "smooth",
+    "terminal.integrated.cursorBlinking": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "vscode_vibrancy.enableAutoTheme": true,
+    "prisma.showPrismaDataPlatformNotification": false
+}
