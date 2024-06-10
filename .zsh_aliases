@@ -1,2 +1,3 @@
-alias "reset-reotem-services"="sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart -restart -agent"
+alias "reset-remote-services"="sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart -restart -agent"
 alias "patch-discord"="sudo amdfriend --in-place --sign ~/Library/Application\ Support/discord/0.0.*/modules/discord_krisp/discord_krisp.node"
+alias "listkexts"="kextstat | grep -v com.apple"
