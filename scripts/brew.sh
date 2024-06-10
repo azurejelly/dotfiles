@@ -10,7 +10,7 @@ ROOT_DIR=$(git rev-parse --show-toplevel)
 if test ! $(which brew)
 then
     echo "Could not find Homebrew, attempting to install"
-    curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
 # Install stuff from Brewfile
