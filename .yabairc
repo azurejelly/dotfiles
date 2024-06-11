@@ -31,6 +31,8 @@ yabai -m config window_gap                   8
 yabai -m config external_bar main:0:0
 
 # things which create floating children
+yabai -m rule --add app="^AMD Power Gadget$" manage=off
+yabai -m rule --add app="^AMD Power Tool$" manage=off mouse_follows_focus=off
 yabai -m rule --add app="^System Settings$" manage=off
 yabai -m rule --add app="^Calculator$" manage=off
 yabai -m rule --add title="^About$" manage=off
