@@ -31,11 +31,8 @@ yabai -m config window_gap                   8
 yabai -m config external_bar main:0:0
 
 # things which create floating children
-yabai -m rule --add app="^AMD Power Gadget$" manage=off
-yabai -m rule --add app="^AMD Power Tool$" manage=off mouse_follows_focus=off
-yabai -m rule --add app="^System Settings$" manage=off
-yabai -m rule --add app="^Calculator$" manage=off
-yabai -m rule --add title="^About$" manage=off
+yabai -m rule --add app="^(AMD Power Tool|AMD Power Gadget)$" manage=off mouse_follows_focus=off
+yabai -m rule --add app="^(About|Calculator|System Settings|System Preferences|Archive Utility)$" manage=off
 yabai -m rule --add title="Prism Launcher*" manage=off
 yabai -m rule --add title="JetBrains Toolbox" manage=off mouse_follows_focus=off
 yabai -m rule --add app="Stats" manage=off mouse_follows_focus=off
